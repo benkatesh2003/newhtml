@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: ;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3 {
+    color: black;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #0066c;
+    padding: 10px 0;
+    color: white;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+  }
+  
+  .navbar ul li {
+    margin-left: 20px;
+  }
+  /* Navigation bar styles */
+.navbar {
+  background-color: #2a5d84; /* Background color for navbar */
+  padding: 10px 20px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.navbar .logo img {
+  width: 40px; /* Adjust size as per your logo */
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Add separation line below navbar */
+.navbar {
+  border-bottom: 2px solid #e0e0e0; /* Light grey line to separate the navbar */
+}
+
+  .navbar a {
+    color: wite;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #0066c;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  /* Resize the logo to fixed width and height */
+ 
+/* Resize the logo image */
+.logo {
+
+  width: 150px; /* Set the width of the image */
+  height: ; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image doesn't overflow its container */
+  display: ; /* Make the image a block element */
+  margin: 0 auto; /* Center the image if needed */
+}
+
+
+
+  
+  .hero h2 {
+    font-size: 36px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: black;
+  }
+  
+  .cta-btn {
+    background-color: red;
+    padding: 12px 30px;
+    color: white;
+    text-decoration-color: #ccc;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .cta-btn:hover {
+    background-color: #e68a00;
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 60px 0;
+    background-color: #ff;
+  }
+  
+  .section .container {
+    text-align: center;
+  }
+  
+  .section p {
+    font-size: 18px;
+    color: black;
+    
+  }
+  .section button{
+    padding: 10px 40px;
+    color: whitesmoke;
+    border-radius: 10px;
+     font-weight: bold;
+     border: none;
+    background-color: red;
+    text-decoration-color: #ccc;
+  }
+  .btn{
+    text-decoration-color: #f4f4f4;
+  }
+  .btn:hover{
+    background-color: orange;
+  }
+  /* Form Section */
+  .form-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-section label {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .form-section input,
+  .form-section textarea,
+  .form-section select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-section button {
+    background-color: #0066cc;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-section button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Technician Profile */
+  .profile-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-card h3 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .profile-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0066cc;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }

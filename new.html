@@ -1,0 +1,100 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedFix - Medical Equipment Repair</title>
+    <link rel="stylesheet" href="new.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <!-- <img src="Bharat_Health_Solution_logo_no_bg.png" alt="Bharat Health Solutions Logo" class="logo"> -->
+        <h1 class="logo">Bharat Health solutions</h1>
+ 
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#for-hospitals">Hospital registration</a></li>
+          <!-- <li><a href="#for-technicians">For Technicians</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#login">login</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Welcome to Bharat health solutions</h2>
+        <p>Your trusted platform for medical equipment repair and maintenance.</p>
+        <a href="#for-hospitals" class="cta-btn">Get Help Now</a>
+      </div>
+    </section>
+  
+    <!-- For Hospitals Section -->
+    <section id="for-hospitals" class="section">
+      <div class="container">
+        <h2>For Hospitals</h2>
+        <p>Submit a service request to repair or maintain your medical equipment.</p>
+        <!-- <a href="#service-form" class="cta-btn">Request Service</> -->
+          <button class="btn">Service Request</button>
+      </div>
+    </section>
+  
+    <!-- Service Request Form -->
+    <section id="service-form" class="section form-section">
+      <div class="container">
+        <h2>Submit Service Request</h2>
+        <form id="serviceRequestForm">
+          <label for="equipment">Equipment Type:</label>
+          <input type="text" id="equipment" name="equipment" required>
+  
+          <label for="issue">Issue Description:</label>
+          <textarea id="issue" name="issue" required></textarea>
+  
+          <label for="urgency">Urgency:</label>
+          <select id="urgency" name="urgency" required>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+          </select>
+  
+          <button type="submit" class="cta-btn">Submit Request</button>
+        </form>
+      </div>
+  
+  
+    <!-- Technician Profile (Mock Profile) -->
+    <section id="technician-profile" class="section">
+      <div class="container">
+        <h2>Technician Profile</h2>
+        <div class="profile-card">
+          <h3>Rahul Dixit</h3>
+          <p><strong>Specialization:</strong> X-ray Machines, MRI</p>
+          <p><strong>Experience:</strong> 10 Years</p>
+          <p><strong>Ratings:</strong> ⭐⭐⭐⭐☆</p>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to contact us!</p>
+      </div>
+    </section>
+  
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 MedFix | All rights reserved</p>
+      </div>
+    </footer>
+    
+  
+    <script src="new.js"></script>
+  </body>
+  </html>
+
